@@ -1,0 +1,105 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    background-image: url(https://pamekasancode.github.io/visualnovel.github.io/assets/images/preloader.jpg);
+    background-size: cover;
+    animation: moveBg 13s infinite;
+    min-height: 100%;
+}
+
+.preloader {
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  min-height: 100%;
+  background-color: #fff;
+}
+
+.preloader .content {
+  position: absolute;
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.preloader p {
+    color: #8888;
+    padding-top: 20px;
+    font-size: 13px;
+}
+
+@keyframes moveBg {
+    0%{background-position: left;}
+    50%{background-position: right;}
+    100%{background-position: left;}
+}
+
+.box {
+    width: 300px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.header {
+    margin-top: -10px;
+}
+
+.header h2 {
+    text-align: left;
+}
+
+.header p {
+    font-size: 13px;
+    color: #888;
+    margin-top: -5x;
+}
+
+.main {
+    margin-top: 10px;
+}
+
+.twibbon {
+    width: 100%;
+    margin: auto;
+    background-image: url(https://i.pinimg.com/736x/3c/dd/24/3cdd249e2d4635457c32d9e52fea0a3b.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.twibbon img {
+    width: 100%
+}
+
+.form {
+    margin-top: 10px;
+}
+
+.form input {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+footer h4 {
+    font-size: 14px;
+    font-weight: 450;
+    color: #888;
+}
